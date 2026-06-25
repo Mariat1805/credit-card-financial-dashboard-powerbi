@@ -128,6 +128,17 @@ DIVIDE(
 - Revenue was concentrated in states such as Texas, New York, and California.
 - Average utilization rates varied significantly across card categories.
 - Swipe transactions represented the largest share of revenue.
+
+## Project Outcomes
+
+This dashboard enables stakeholders to:
+
+- Monitor revenue performance across card categories
+- Identify high-value customer segments
+- Analyze utilization and delinquency trends
+- Compare transaction behavior by payment method
+- Support data-driven financial decision making
+
 ## Tools & Technologies
 - Power BI
 - Power Query
