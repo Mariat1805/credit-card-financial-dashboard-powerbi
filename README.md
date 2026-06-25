@@ -135,16 +135,30 @@ DIVIDE(
 - Data Modeling
 - Data Visualization
 - Microsoft Excel
+
+## How to Open
+
+1. Download the `.pbix` file from the `/dashboard` folder
+2. Open it with [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free to download)
+3. All data is already embedded — no additional setup required
+  
 ## Project Screenshots
 - Executive Summary
 ### Executive Summary
 
 ![Executive Summary](screenshots/ExecutiveSummary.png)
 
+*High-level KPIs including total revenue, active customers, interest earned, and revenue trends broken down by card category, gender, and expense type.*
+
+
 ### Customer Analytics
 
 ![CustomerAnalytics.png](screenshots/CustomerAnalytics.png)
 
+*Demographic breakdown of revenue by education level, occupation, and state, alongside customer satisfaction scores to identify high-value segments.*
+
 ### Credit Card Analytics
 
 ![Credit Card Analytics](screenshots/CreditCardAnalytics.png)
+
+*Card performance metrics including utilization rates, delinquency by card category, average credit limits, and revenue split by payment method (chip, swipe, online).*
