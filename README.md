@@ -98,24 +98,30 @@ A custom Date Table was created to support time intelligence and trend analysis.
 ## DAX Measures
 
 Examples of measures created:
+```
 Total Revenue =
 SUM(credit_card[Total_Trans_Amt])
+```
 
+```
 Active Customers =
 DISTINCTCOUNT(customer[Client_Num])
-
+```
+```
 Avg Transaction Value =
 DIVIDE(
     [Total Revenue],
     [Total Transactions]
 )
+```
 
+```
 Avg Utilization Ratio Corrected =
 DIVIDE(
     AVERAGE(credit_card[Avg_Utilization_Ratio]),
     1000
 )
-
+```
 ## Key Insights
 - Blue Card customers generated the highest revenue.
 - Business professionals represented the highest revenue-generating customer segment.
